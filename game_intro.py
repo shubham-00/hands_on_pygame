@@ -9,4 +9,4 @@ def intro():
 				pygame.quit()
 
 		game_display.fill(white_color)
-		game_button("Quit", 150, 10, 500, 80, black_color, green_color)
+		game_button("Quit", 150, 10, 500, 80, black_color, green_color, pygame.quit)
