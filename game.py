@@ -1,0 +1,1 @@
+import pygamefrom import game_intropygame.init()display_width = 800display_height = 600game_display = pygame.display.set_mode((display_width, display_height))pygame.display.set_caption('CARazy')clock = pygame.time.Clock()game_intro.intro()
